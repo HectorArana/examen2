@@ -25,6 +25,85 @@
    </style>
 </head>
 
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>THIS IS CIRCO ITALIADO</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+</head>
+<style>
+.aligncenter {
+    text-align: center;
+}
+</style>
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="pull-left visible-md visible-lg">
+                        <div id="logo-img" alt="Logo image"></div>
+                    </a>
+                    <div class="navbar-brand">
+                        <a href="index.html"><h1>CIRCO ITALIANO</h1></a>
+                        <p>
+                            <span>THIS IS CIRCO ITALIADO</span>
+                        </p>
+                    </div>
+                    <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li id="navHomeButton" class="visible-xs active">
+                            <a href="index.html">
+                                <span class="glyphicon glyphicon-home"></span> Inicio</a>
+                        </li>
+                        <li id="navMenuButton">
+                            <a href="hola.html" onclick="$dc.loadMenuCategories();">
+                                <span class="glyphicon glyphicon-info-sign"></span>
+                                <br class="hidden-xs"> ¿Quiénes somos?</a>
+                        </li>
+                        <li>
+                            <a href="hola2.html">
+                                <span class="glyphicon glyphicon-th-list"></span>
+                                <br class="hidden-xs"> AGENDA de ACTOS</a>
+                        </li>
+                        <li>
+                            <a href="hola3.html">
+                                <span class="glyphicon glyphicon-earphone"></span>
+                                <br class="hidden-xs"> Contáctanos</a>
+                        </li>
+                        <li id="phone" class="hidden-xs">
+                            <a href="tel: +502 4646-2171">
+                                <span>+502 4646-2171</span></a>
+                            <div>* ¡Llamanos!</div>
+                        </li>
+                    </ul>
+                    <!-- #nav-list -->
+                </div>
+                <!-- .collapse .navbar-collapse -->
+            </div>
+            <!-- .container -->
+        </nav>
+        <!-- #header-nav -->
+    </header>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ajax-utils.js"></script>
+    <script src="js/script.js"></script>
+
  <body background="chido.gif" text="White" link="blue" alink="red" vlink="green">
 <header align="center">
 <img src="membrete.jpg" align="right" size="1" width="15%">
@@ -33,9 +112,3 @@
 <p>CIRCO ITALIANO es un circo lleno de ALEGRÍA, donde la DIVERSIÓN no acaba y las RISAS abundan</p>
 <p>¡Traémos la revolución de los circos! Puedes ver nuestra agenda de actos en nuestra <a href="hola2.html">agenda de actos</a>.¡Actos inolvidables dignos de un GRAN CIRCO!</p>
 <p>Una de nuestras más fuertes decisiones es que estamos totalmente EN CONTRA del abuso animal y por ende no poseemos actos de ese estilo.</p>
-<div id="navegador">
-	<ul>
-		<li><a href="index.html">Incio</a></li>
-		<li><a href="hola2.html">¡Nuestra agenda de ACTOS!</a></li>
-		<li><a href="hola3.html">Contáctanos</a></li>
-		</ul>
